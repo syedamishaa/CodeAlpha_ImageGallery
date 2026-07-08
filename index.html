@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Creative Image Gallery</h1>
+        <p>Browse Nature, Food, Travel & Wildlife</p>
+    </header>
+    <!-- Filter -->
+    <section class="filters">
+        <button data-filter="all">All</button>
+        <button data-filter="nature">🌿 Nature</button>
+        <button data-filter="food">🍔 Food</button>
+        <button data-filter="travel">✈️ Travel</button>
+        <button data-filter="animals">🐶 Animals</button>
+    </section>
+    <!-- Gallery -->
+    <!-- nature -->
+    <section class="gallery-container">
+        <div class="card" data-category="nature">
+            <img src="images/nature1.jpg" alt="flower">
+            <div class="overlay">
+                <h3>Flower View</h3>
+                <p>Nature</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="nature">
+            <img src="images/nature2.jpg" alt="river">
+            <div class="overlay">
+                <h3>River View</h3>
+                <p>Nature</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="nature">
+            <img src="images/nature3.jpg" alt="sky">
+            <div class="overlay">
+                <h3>Sky View</h3>
+                <p>Nature</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="nature">
+            <img src="images/nature4.jpg" alt="mountain">
+            <div class="overlay">
+                <h3>Mountain View</h3>
+                <p>Nature</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="nature">
+            <img src="images/nature5.jpg" alt="tress">
+            <div class="overlay">
+                <h3>Tress View</h3>
+                <p>Nature</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <!-- Food -->
+        <div class="card" data-category="food">
+            <img src="images/food1.jpg" alt="food1">
+            <div class="overlay">
+                <h3>Item 1</h3>
+                <p>Food</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="food">
+            <img src="images/food2.jpg" alt="food2">
+            <div class="overlay">
+                <h3>Item 2</h3>
+                <p>Food</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="food">
+            <img src="images/food3.jpg" alt="food3">
+            <div class="overlay">
+                <h3>Item 3</h3>
+                <p>Food</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="food">
+            <img src="images/food4.jpg" alt="food4">
+            <div class="overlay">
+                <h3>Item 4</h3>
+                <p>Food</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="food">
+            <img src="images/food5.jpg" alt="food5">
+            <div class="overlay">
+                <h3>Item 5</h3>
+                <p>Food</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <!-- Travel  -->
+        <div class="card" data-category="travel">
+            <img src="images/travel1.jpg" alt="travel">
+            <div class="overlay">
+                <h3>View 1</h3>
+                <p>Travel</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="travel">
+            <img src="images/travel2.jpg" alt="travel">
+            <div class="overlay">
+                <h3>View 2</h3>
+                <p>Travel</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="travel">
+            <img src="images/travel3.jpg" alt="travel">
+            <div class="overlay">
+                <h3>View 3</h3>
+                <p>Travel</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="travel">
+            <img src="images/travel4.jpg" alt="travel">
+            <div class="overlay">
+                <h3>View 4</h3>
+                <p>Travel</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="travel">
+            <img src="images/travel5.jpg" alt="travel">
+            <div class="overlay">
+                <h3>View 5</h3>
+                <p>Travel</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <!-- animals -->
+        <div class="card" data-category="animals">
+            <img src="images/animat1.jpg" alt="animal">
+            <div class="overlay">
+                <h3>Animal 1</h3>
+                <p>Animal</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="animals">
+            <img src="images/animal2.jpg" alt="animal">
+            <div class="overlay">
+                <h3>Animal 2</h3>
+                <p>Animal</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="animals">
+            <img src="images/animal3.jpg" alt="animal">
+            <div class="overlay">
+                <h3>Animal 3</h3>
+                <p>Animal</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="animals">
+            <img src="images/animal4.jpg" alt="animal">
+            <div class="overlay">
+                <h3>Animal 4</h3>
+                <p>Animal</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+        <div class="card" data-category="animals">
+            <img src="images/animal5.jpg" alt="animal">
+            <div class="overlay">
+                <h3>Animal 5</h3>
+                <p>Animal</p>
+                <p>Click to View →</p>
+            </div>
+        </div>
+    </section>
+    <div class="lightbox">
+        <button class="previous">❮</button>
+        <img src="" alt="lightboximg">
+        <button class="next">❯</button>
+        <button class="close">✕</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
